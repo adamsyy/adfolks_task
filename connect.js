@@ -26,7 +26,7 @@ app.use(bodyParser.text({ type: 'text/plain' }));
 app.use(bodyParser.urlencoded({ extended: false }));
 
 
-const HTTP_PORT = 8000
+const HTTP_PORT = 80
 
 
 app.listen(HTTP_PORT, () => {
